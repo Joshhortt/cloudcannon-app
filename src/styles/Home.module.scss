@@ -1,0 +1,130 @@
+@import "@styles/settings/__settings";
+
+.title {
+  color: #000000;
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin: 0 0 4rem;
+
+  @media (max-width: 720px) {
+    font-size: 3rem;
+  }
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin: -3rem 0 4rem;
+
+  @media (max-width: 720px) {
+    font-size: 1.5rem;
+  }
+}
+
+.heading {
+  font-size: 3.2rem;
+
+  @media (max-width: 720px) {
+    font-size: 2rem;
+  }
+}
+
+.signupContainer {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  border: solid 2px #dd4b36;
+  border-radius: 0.4em;
+  padding: 2em;
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+  }
+
+  a {
+    display: inline-block;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 900;
+    background: #dd4b36;
+    padding: 0.6em 1em;
+    border: none;
+    border-radius: 0.2em;
+  }
+}
+
+.signupBody {
+  p {
+    margin-top: 0.6em;
+    margin-bottom: 0;
+  }
+}
+
+.signupCta {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+
+  @media (max-width: 720px) {
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2em;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.posts {
+  font-size: 1.2em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 3em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: inherit;
+
+    &:hover {
+      h3 {
+        color: #dd4b36;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.postTitle {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.postDate {
+  font-size: 0.9em;
+  color: gray;
+  margin: 0.6em 0;
+}
+
+.allPosts {
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color: #dd4b36;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+p,
+ul {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+ol {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
