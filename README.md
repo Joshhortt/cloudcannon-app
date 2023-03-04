@@ -2,7 +2,7 @@
 
 ## Tutorial Blog Post
 
-![How to deploy Jamstack sites to cloudcannon?] (https://cdn.hashnode.com/res/hashnode/image/upload/v1677942155987/Q9r52yERu.png?auto=compress)
+![0](https://cdn.hashnode.com/res/hashnode/image/upload/v1677942155987/Q9r52yERu.png?auto=compress)
 
 ---
 
