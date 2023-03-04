@@ -1,18 +1,24 @@
 # Demo Website Starter
 
+## Tutorial Blog Post
+
+![How to deploy Jamstack sites to cloudcannon?] (https://cdn.hashnode.com/res/hashnode/image/upload/v1677942155987/Q9r52yERu.png?auto=compress)
+
+---
+
 Learn how to a deploy a Next.js Jamstack app and set up a collaborative CMS with [CloudCannon](https://cloudcannon.com/jamstack/).
 
 ---
 
 ## Objectives
 
-- Walk through importing an existing Git-based site.
-
-- Set up collaborative content editing that uses Markdown
-
-- Deploy the app with a static site chain.
-
-- Learn how to use branching flows for collaborative editing.
+1. Clone project files from a remote repository using the command line.
+2. Install Dependencies.
+3. Create a new Repository on Github.
+4. Signup for Cloudcannon.
+5. Add a new site synced to a remote repository on Github.
+6. Commit and push changes to a remote repository.
+7. Deploy new site to cloudcannon.
 
 #
 
